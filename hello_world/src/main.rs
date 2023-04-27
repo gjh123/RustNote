@@ -49,6 +49,6 @@ fn go(a: i32, b: i32) -> i32 {
     return a + b;
 }
 
-// fn add(name:str,age:i32)->i32{
-
-// }
+fn add(name:str,age:i32)->i32{
+    
+}
