@@ -7,9 +7,9 @@ struct Person {
     age: u32,
 }
 impl Person{
-    fn pp(name:String){
-        println!("{}",name);
-    }
+    // fn pp(name:String){
+    //     println!("{}",name);
+    // }
 }
 fn main() {
     // 必须 全大写 下划线分开
@@ -34,7 +34,7 @@ fn main() {
         age: 18,
     };
     println!("{:?}", person.name); //  "GJH"
-    println!("{:?}",person.pp("GJH"));
+    // println!("{:?}",person.pp("GJH"));
     println!("{:?}", person); // Person { name: "GJH", age: 18 }
     
 
