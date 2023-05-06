@@ -7,5 +7,6 @@
 - `cargo clean`：清理缓存和构建目录
 - `cargo update`：更新依赖
 - `cargo doc`：生成文档
+- **cargo fmt**：格式化代码
 
 

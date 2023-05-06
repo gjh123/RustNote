@@ -6,7 +6,7 @@ struct Person {
     name: String,
     age: u32,
 }
-impl Person{
+impl Person {
     // fn pp(name:String){
     //     println!("{}",name);
     // }
@@ -26,7 +26,7 @@ fn main() {
 
     // 数组 [类型, 长度]
     let arr = [3, 5, 8, 4]; //let b = ["January", "February", "March"];
-    println!("{}", arr[2]); // 8
+    println!("数组arr==={}", arr[2]); // 数组arr===8
 
     // 结构体实例化
     let person = Person {
@@ -34,11 +34,7 @@ fn main() {
         age: 18,
     };
     println!("{:?}", person.name); //  "GJH"
-    // println!("{:?}",person.pp("GJH"));
     println!("{:?}", person); // Person { name: "GJH", age: 18 }
-    
-
-
 }
 
 // -> 指定返回值的类型
@@ -48,4 +44,3 @@ fn go(a: i32, b: i32) -> i32 {
     // a+b+1
     return a + b;
 }
-
